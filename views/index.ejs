@@ -23,32 +23,77 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
+        
+        <!-- !! Navbar Active-state should be fixed !!-->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">   
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">home</a>
+            
+            <% if (title == "Home") { %> 
+              <li class="nav-item active"> 
+            <% } else { %>
+              <li class="nav-item">
+            <% } %>  
+              <a class="nav-link" aria-current="page" href="/home">home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">about us</a>
-            </li>  
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">projects</a>
-            </li>  
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">services</a>
+
+
+            <% if (title == "About Us") { %> 
+              <li class="nav-item active"> 
+            <% } else { %>
+              <li class="nav-item">
+            <% } %>  
+              <a class="nav-link" aria-current="page" href="/about">about us</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">contact us</a>
+            
+            
+            <% if (title == "Projects") { %> 
+              <li class="nav-item"> 
+            <% } else { %>
+              <li class="nav-item">
+            <% } %>  
+              <a class="nav-link" aria-current="page" href="/projects">projects</a>
+            </li> 
+            
+            
+            <% if (title == "Services") { %> 
+              <li class="nav-item active"> 
+            <% } else { %>
+              <li class="nav-item">
+            <% } %>  
+              <a class="nav-link" aria-current="page" href="/services">services</a>
+            </li>
+
+
+            <% if (title == "Contact Us") { %> 
+              <li class="nav-item active"> 
+            <% } else { %>
+              <li class="nav-item">
+            <% } %>  
+              <a class="nav-link" aria-current="page" href="/contact">contact us</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
+    
+    
+    <!-- MAIN CONTENTS -->
     <main>
       <h1><%= title %></h1>
       <p>Contents to be updated</p>
     </main>
+
+    <!-- FOOTER -->
+
+    <!-- !! FOOTER NEEDS TO BE FIXED -->
+
+    <nav class="navbar fixed-bottom navbar-dark bg-dark">
+      <div class="container-fluid">
+        <h6 class="display-6 navbar-brand"> Footer Here </h6>
+      </div>
+    </nav>
+
+    <!-- SCRIPTS -->
     <script src="/jquery/dist/jquery.min.js"></script>
     <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="Scripts/app.js"></script>
