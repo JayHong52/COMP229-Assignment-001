@@ -1,62 +1,111 @@
 <%- include .././partials/header.ejs %>
-
 <%- include .././partials/main_nav.ejs %>
 
-    <!-- MAIN CONTENTS -->
-    <main>
+    <!-- Main Contents: Projects -->
+
+    <!-- JUMBOTRON -->
+
+    <section class="bg-dark text-light text-center p-5">
       <div class="container">
-    
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-              aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="http://studentweb.cencol.ca/jhong52/assignment6/assignment06/items/images/img_02sm.jpg"
-                class="mx-auto d-block w-75" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
-              </div>
+        <div>
+          <h1>PROJECTS</h1>
+          <div class="row">
+            <!-- Line Starts-->
+            <div class="col-3"></div>
+            <div class="col-6">
+              <hr>
             </div>
-            <div class="carousel-item">
-              <img src="http://studentweb.cencol.ca/jhong52/assignment6/assignment06/items/images/img_03sm.jpg"
-                class="mx-auto d-block w-75" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
-              </div>
+            <div class="col-3"></div>
+          </div> <!-- Line ends -->
+          <h4>
+            Go from good to great, <br>
+            because good is the biggest enemy of great<br>
+            - Don Meyer -
+          </h4>
+          <div class="row">
+            <!-- Line Starts -->
+            <div class="col-3"></div>
+            <div class="col-6">
+              <hr>
             </div>
-            <div class="carousel-item">
-              <img src="http://studentweb.cencol.ca/jhong52/assignment6/assignment06/items/images/img_04sm.jpg"
-                class="mx-auto d-block w-75" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+            <div class="col-3"></div>
+          </div> <!-- Line Ends -->
         </div>
       </div>
-    
-    
-    </main>
+    </section>
+
+    <!-- Project Gallery -->
+
+    <section>
+      <div class="album mt-3 mb-5 bg-light">
+        <div class="container">
+          
+          <div class="row text-center g-3">
+             
+            <!-- Project Card: 1 -->
+
+             <div class="col">
+              <div class="card shadow-sm">
+                <img src="http://drive.google.com/uc?export=view&id=1afy7R_znGOTdi34iWKeXU4ExfUxuxLDk"
+                class="card-img-top" alt="...">               
+                <div class="card-body">
+                  <p class="card-text"><b>" Catch the Bug "</b><br>
+                    Client-Side Web Development<br>
+                    Centennial College, Winter 2021
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="card-body">
+                      <a href="http://studentweb.cencol.ca/jhong52/assignment5/assignment5/items/assignment5.html" class="card-link">Visit Page</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project Card: 2 -->
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="http://drive.google.com/uc?export=view&id=1wruL0jnTYyafnDUuWD3CupuH0euHnMoQ"
+                class="card-img-top" alt="...">               
+                <div class="card-body">
+                  <p class="card-text"><b>" Dynamic Table Builder "</b><br>
+                    Client-Side Web Development<br>
+                    Centennial College, Winter 2021
+                    <hr>
+
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="card-body">
+                      <a href="http://studentweb.cencol.ca/jhong52/assignment2/assignment2.html" class="card-link">Visit Page</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project Card: 3 -->
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="http://drive.google.com/uc?export=view&id=1Yva5C0L_lffG394bdtyPedDzTrqy6Mjw"
+                class="card-img-top" alt="...">               
+                <div class="card-body">
+                  <p class="card-text"><b>" Japan at Night "</b><br>
+                    Client-Side Web Development<br>
+                    Centennial College, Winter 2021
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="card-body">
+                      <a href="http://studentweb.cencol.ca/jhong52/assignment6/assignment06/items/index.html" class="card-link">Visit Page</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 <%- include .././partials/bottom_nav.ejs %>
-
 <%- include .././partials/footer.ejs %>

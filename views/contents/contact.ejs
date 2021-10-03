@@ -1,79 +1,77 @@
 <%- include .././partials/header.ejs %>
+<%- include .././partials/main_nav.ejs %>
+<!-- Main Contents: Contact Us -->
 
-    <%- include .././partials/main_nav.ejs %>
+<main>
+    <div class="container mx-5 my-5 position-relative">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
 
-        <!-- Main Contents: Contact Us -->
-         <main>
-            <div class="container mx-5 my-5 position-relative">
-                <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-8">
-                        
-                        <!-- Business Card -->
-                        <p>
-                        <h1>Contact Us</h1> 
-                        <address>
-                            <strong>Jayson Web Development</strong>
-                            <br>
-                            1021 Midland Avenue
-                            <br>
-                            Scarborough, Onatario, M1K 4G7
-                            <br>
-                            (437) 236-6523
-                        </address>
-                        <address>
-                            <strong>Jiwoong Hong</strong>
-                            <br>
-                            <a href="mailto:jhong52@my.centennialcollge.ca">jhong52@my.centennialcollge.ca</a>
-                        </address>
-                        </p>
-                    </div>
-                    <div class="col-md-2"></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-8">
+                <!-- Business Card -->
+                <p>
+                <h1>Contact Us</h1>
+                <address>
+                    <strong>Jayson Web Development</strong>
+                    <br>
+                    1021 Midland Avenue
+                    <br>
+                    Scarborough, Onatario, M1K 4G7
+                    <br>
+                    (437) 236-6523
+                </address>
+                <address>
+                    <strong>Jiwoong Hong</strong>
+                    <br>
+                    <a href="mailto:jhong52@my.centennialcollge.ca">jhong52@my.centennialcollge.ca</a>
+                </address>
+                </p>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
 
-                        <!-- Form: Business Inquery -->
-                        <div class="card card-body bg-light">
-                        <form class="row g-3 needs-validation" novalidate>
-                            <div class="col-md-6">
-                                <label for="contactFormFirstName" class="form-label">First name</label>
-                                <input type="text" class="form-control" id="contactFormFirstName" placeholder="Jay"
-                                    required>
-                                <div class="valid-feedback">
-                                    Looks good!
-                                </div>
+                <!-- Form: Business Inquery -->
+                <div class="card card-body bg-light">
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-6">
+                            <label for="contactFormFirstName" class="form-label">First name</label>
+                            <input type="text" class="form-control" id="contactFormFirstName" placeholder="Jay"
+                                required>
+                            <div class="valid-feedback">
+                                Looks good!
                             </div>
-                            <div class="col-md-6">
-                                <label for="contactFormLastName" class="form-label">Last name</label>
-                                <input type="text" class="form-control" id="contactFormLastName" placeholder="Hong"
-                                    required>
-                                <div class="valid-feedback">
-                                    Looks good!
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <label for="contactFormEmail" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="contactFormEmail"/>
-                            </div>
-                            <div class="col-md-12">
-                                <label for="contactFormMessage" class="form-label">Your Message</label>
-                                <textarea class="form-control" id="contactFormMessage"></textarea>
-                            </div>
-                            <div class="col-5"></div>
-                            <div class="col-2">
-                                <button class="btn btn-outline-primary" type="submit">Submit</button>
-                            </div>
-                            <div class="col-5"></div>
-                        </form>
                         </div>
-                    </div>
-                    <div class="col-md-2"></div>
+                        <div class="col-md-6">
+                            <label for="contactFormLastName" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="contactFormLastName" placeholder="Hong"
+                                required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="contactFormEmail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="contactFormEmail" />
+                        </div>
+                        <div class="col-md-12">
+                            <label for="contactFormMessage" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="contactFormMessage"></textarea>
+                        </div>
+                        <div class="col-5"></div>
+                        <div class="col-2">
+                            <button class="btn btn-outline-primary" type="submit">Submit</button>
+                        </div>
+                        <div class="col-5"></div>
+                    </form>
                 </div>
             </div>
-        </main>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+</main>
 
-        <%- include .././partials/bottom_nav.ejs %>
-
-            <%- include .././partials/footer.ejs %>
+<%- include .././partials/bottom_nav.ejs %>
+<%- include .././partials/footer.ejs %>
