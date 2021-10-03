@@ -39,7 +39,4 @@ router.get('/contact', function(req, res, next) {
   res.render('contents/contact', {title: 'Contact Us'});
 });
 
-
-
-
 module.exports = router;
